@@ -1,4 +1,466 @@
-FEDERAL EXXCC
+Microsoft Windows [Version 10.0.22631.3880]
+(c) Microsoft Corporation. All rights reserved.
 
-MOB
-HELLO
+C:\Users\Administrator>git --version
+git version 2.46.0.windows.1
+
+C:\Users\Administrator>https://github.com/Anilpayyoor/TESTMOBA.git
+'https:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator>pw
+'pw' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator>cd\
+
+C:\>mkdir mob
+
+C:\>cd mob
+
+C:\mob>git clone https://github.com/Anilpayyoor/TESTMOBA.git
+Cloning into 'TESTMOBA'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+C:\mob>dir
+ Volume in drive C has no label.
+ Volume Serial Number is CE74-F692
+
+ Directory of C:\mob
+
+11/08/2024  06:52 PM    <DIR>          .
+11/08/2024  06:52 PM    <DIR>          TESTMOBA
+               0 File(s)              0 bytes
+               2 Dir(s)  329,052,262,400 bytes free
+
+C:\mob>cd testmoba
+
+C:\mob\TESTMOBA>dir
+ Volume in drive C has no label.
+ Volume Serial Number is CE74-F692
+
+ Directory of C:\mob\TESTMOBA
+
+11/08/2024  06:52 PM    <DIR>          .
+11/08/2024  06:52 PM    <DIR>          ..
+11/08/2024  06:52 PM                14 TESTMOBA.TXT
+               1 File(s)             14 bytes
+               2 Dir(s)  329,052,196,864 bytes free
+
+C:\mob\TESTMOBA>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\mob\TESTMOBA>git fetch
+
+C:\mob\TESTMOBA>git fetch
+
+C:\mob\TESTMOBA>git full
+git: 'full' is not a git command. See 'git --help'.
+
+The most similar command is
+        pull
+
+C:\mob\TESTMOBA>get pull
+'get' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\mob\TESTMOBA>git pull
+Already up to date.
+
+C:\mob\TESTMOBA>git tetch
+git: 'tetch' is not a git command. See 'git --help'.
+
+The most similar command is
+        fetch
+
+C:\mob\TESTMOBA>git fetch
+
+C:\mob\TESTMOBA>git fetch
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 920 bytes | 115.00 KiB/s, done.
+From https://github.com/Anilpayyoor/TESTMOBA
+   b084b65..3b85b26  main       -> origin/main
+
+C:\mob\TESTMOBA>git pull
+Updating b084b65..3b85b26
+Fast-forward
+ TESTMOBA.TXT | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+C:\mob\TESTMOBA>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\mob\TESTMOBA>git log
+commit 3b85b2670dd36dbb96c4c0c4d7999c94739fed33 (HEAD -> main, origin/main, origin/HEAD)
+Author: Anilpayyoor <anilpayyoor@gmail.com>
+Date:   Sun Aug 11 19:09:19 2024 +0400
+
+    Update  second TESTMOBA.TXT
+
+commit b084b65cfd5d155c782f6c3dbcd1bc7306fb9be8
+Author: Anilpayyoor <anilpayyoor@gmail.com>
+Date:   Sun Aug 11 18:37:08 2024 +0400
+
+    TESTMOBA.TXT
+
+C:\mob\TESTMOBA>git add app.txt
+
+C:\mob\TESTMOBA>git commit app.txt -m "test all"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Administrator@GM-FEDEX.(none)')
+
+C:\mob\TESTMOBA>
+C:\mob\TESTMOBA>dit
+'dit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\mob\TESTMOBA>dir
+ Volume in drive C has no label.
+ Volume Serial Number is CE74-F692
+
+ Directory of C:\mob\TESTMOBA
+
+11/08/2024  07:50 PM    <DIR>          .
+11/08/2024  06:52 PM    <DIR>          ..
+11/08/2024  07:50 PM                 0 app.txt
+11/08/2024  07:09 PM                41 TESTMOBA.TXT
+               2 File(s)             41 bytes
+               2 Dir(s)  329,054,728,192 bytes free
+
+C:\mob\TESTMOBA>git add app.txt
+
+C:\mob\TESTMOBA>type app.txt
+
+C:\mob\TESTMOBA>kjnkjn
+'kjnkjn' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\mob\TESTMOBA>
+C:\mob\TESTMOBA>git add app.txt
+
+C:\mob\TESTMOBA>git commit app.txt -m "testall"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Administrator@GM-FEDEX.(none)')
+
+C:\mob\TESTMOBA>git clone https://github.com/Anilpayyoor/TESTMOBA.git
+Cloning into 'TESTMOBA'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+C:\mob\TESTMOBA>git commit app.txt -m "test all"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Administrator@GM-FEDEX.(none)')
+
+C:\mob\TESTMOBA>git add app.txt
+
+C:\mob\TESTMOBA>git add applica.txt
+fatal: pathspec 'applica.txt' did not match any files
+
+C:\mob\TESTMOBA>dir
+ Volume in drive C has no label.
+ Volume Serial Number is CE74-F692
+
+ Directory of C:\mob\TESTMOBA
+
+11/08/2024  07:58 PM    <DIR>          .
+11/08/2024  06:52 PM    <DIR>          ..
+11/08/2024  08:03 PM                35 app.txt
+11/08/2024  07:58 PM    <DIR>          TESTMOBA
+11/08/2024  07:09 PM                41 TESTMOBA.TXT
+               2 File(s)             76 bytes
+               3 Dir(s)  329,055,739,904 bytes free
+
+C:\mob\TESTMOBA>git add applica.txt
+fatal: pathspec 'applica.txt' did not match any files
+
+C:\mob\TESTMOBA>dir
+ Volume in drive C has no label.
+ Volume Serial Number is CE74-F692
+
+ Directory of C:\mob\TESTMOBA
+
+11/08/2024  07:58 PM    <DIR>          .
+11/08/2024  06:52 PM    <DIR>          ..
+11/08/2024  08:03 PM                35 app.txt
+11/08/2024  07:58 PM    <DIR>          TESTMOBA
+11/08/2024  07:09 PM                41 TESTMOBA.TXT
+               2 File(s)             76 bytes
+               3 Dir(s)  329,056,927,744 bytes free
+
+C:\mob\TESTMOBA>git push
+Everything up-to-date
+
+C:\mob\TESTMOBA>git commit app.txt -m "test all"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Administrator@GM-FEDEX.(none)')
+
+C:\mob\TESTMOBA>https://github.com/Anilpayyoor/Anilpayyoor.git
+'https:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\mob\TESTMOBA>git push
+Everything up-to-date
+
+C:\mob\TESTMOBA>dir
+ Volume in drive C has no label.
+ Volume Serial Number is CE74-F692
+
+ Directory of C:\mob\TESTMOBA
+
+11/08/2024  08:10 PM    <DIR>          .
+11/08/2024  06:52 PM    <DIR>          ..
+11/08/2024  08:03 PM                35 app.txt
+11/08/2024  08:10 PM                44 ghp_I1og56M22qZkfiY5WycaqbbRIIbazc2.txt
+11/08/2024  07:58 PM    <DIR>          TESTMOBA
+11/08/2024  07:09 PM                41 TESTMOBA.TXT
+               3 File(s)            120 bytes
+               3 Dir(s)  329,049,333,760 bytes free
+
+C:\mob\TESTMOBA>dir
+ Volume in drive C has no label.
+ Volume Serial Number is CE74-F692
+
+ Directory of C:\mob\TESTMOBA
+
+11/08/2024  08:10 PM    <DIR>          .
+11/08/2024  06:52 PM    <DIR>          ..
+11/08/2024  08:03 PM                35 app.txt
+11/08/2024  08:10 PM                44 ghp_I1og56M22qZkfiY5WycaqbbRIIbazc2.txt
+11/08/2024  07:58 PM    <DIR>          TESTMOBA
+11/08/2024  07:09 PM                41 TESTMOBA.TXT
+               3 File(s)            120 bytes
+               3 Dir(s)  329,045,188,608 bytes free
+
+C:\mob\TESTMOBA>edit app.txt
+'edit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\mob\TESTMOBA>git add app.txt
+
+C:\mob\TESTMOBA>git commit app.txt -m "update"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Administrator@GM-FEDEX.(none)')
+
+C:\mob\TESTMOBA> git config --global user.email "anilpayyoor@gmail.com"
+
+C:\mob\TESTMOBA>git config --global user.name "anilpayyoor"
+
+C:\mob\TESTMOBA>git commit app.txt -m "update"
+[main 0f2304e] update
+ 1 file changed, 5 insertions(+)
+ create mode 100644 app.txt
+
+C:\mob\TESTMOBA>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 295 bytes | 147.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Anilpayyoor/TESTMOBA.git
+   3b85b26..0f2304e  main -> main
+
+C:\mob\TESTMOBA>git push
+Everything up-to-date
+
+C:\mob\TESTMOBA>git push
+Everything up-to-date
+
+C:\mob\TESTMOBA>git commit app.txt -m "update"
+[main 6d11caf] update
+ 1 file changed, 4 insertions(+), 5 deletions(-)
+
+C:\mob\TESTMOBA>git config --global user.name "anilpayyoor"
+
+C:\mob\TESTMOBA> git config --global user.email "anilpayyoor@gmail.com"
+
+C:\mob\TESTMOBA>git commit app.txt -m "update"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        TESTMOBA/
+        ghp_I1og56M22qZkfiY5WycaqbbRIIbazc2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\mob\TESTMOBA>git commit app.txt -m "update second"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        TESTMOBA/
+        ghp_I1og56M22qZkfiY5WycaqbbRIIbazc2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\mob\TESTMOBA>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 295 bytes | 295.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Anilpayyoor/TESTMOBA.git
+   0f2304e..6d11caf  main -> main
+
+C:\mob\TESTMOBA>git commit app.txt -m "update"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        TESTMOBA/
+        ghp_I1og56M22qZkfiY5WycaqbbRIIbazc2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\mob\TESTMOBA>https://github.com/Anilpayyoor/Anilpayyoor.git
+'https:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\mob\TESTMOBA>git push
+Everything up-to-date
+
+C:\mob\TESTMOBA>git commit app.txt -m "tesl"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        TESTMOBA/
+        ghp_I1og56M22qZkfiY5WycaqbbRIIbazc2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\mob\TESTMOBA>git add app.txt
+
+C:\mob\TESTMOBA>git commit app.txt -m "test all"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        TESTMOBA/
+        ghp_I1og56M22qZkfiY5WycaqbbRIIbazc2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\mob\TESTMOBA>git add cb.java
+fatal: pathspec 'cb.java' did not match any files
+
+C:\mob\TESTMOBA>dir
+ Volume in drive C has no label.
+ Volume Serial Number is CE74-F692
+
+ Directory of C:\mob\TESTMOBA
+
+11/08/2024  08:33 PM    <DIR>          .
+11/08/2024  06:52 PM    <DIR>          ..
+11/08/2024  08:24 PM                29 app.txt
+11/08/2024  08:33 PM                 0 cb.java.txt
+11/08/2024  08:10 PM                44 ghp_I1og56M22qZkfiY5WycaqbbRIIbazc2.txt
+11/08/2024  07:58 PM    <DIR>          TESTMOBA
+11/08/2024  07:09 PM                41 TESTMOBA.TXT
+               4 File(s)            114 bytes
+               3 Dir(s)  329,052,008,448 bytes free
+
+C:\mob\TESTMOBA>cb.java.txt
+
+C:\mob\TESTMOBA>git push
+Everything up-to-date
+
+C:\mob\TESTMOBA>git commit cb.java.txt -m "update"
+error: pathspec 'cb.java.txt' did not match any file(s) known to git
+
+C:\mob\TESTMOBA>git add cb.java.txt
+
+C:\mob\TESTMOBA>git commit cb.java.txt -m "update"
+[main 99f2548] update
+ 1 file changed, 3 insertions(+)
+ create mode 100644 cb.java.txt
+
+C:\mob\TESTMOBA>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 315 bytes | 105.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Anilpayyoor/TESTMOBA.git
+   6d11caf..99f2548  main -> main
+
+C:\mob\TESTMOBA>
